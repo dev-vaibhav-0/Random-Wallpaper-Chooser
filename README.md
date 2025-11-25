@@ -20,6 +20,9 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 Run
+
+Supported browsers are Safari,Chrome,Firefox and Edge and are given names for their .py files for easier understanding 
+
 ```bash
 python <browser>.py
 ```
