@@ -10,7 +10,7 @@ A tiny Python script that grabs a random wallpaper from a website and lets you t
 
 ## 📦 Requirements
 - Python 3.x
-- A directory full of wallpapers
+- Required library
 
 ## 🛠️ Install
 ```bash
