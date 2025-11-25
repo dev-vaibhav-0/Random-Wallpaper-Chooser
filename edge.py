@@ -14,18 +14,15 @@ class Main:
             1) Grayscale Wallpaper
             2) Blurred Wallpaper
             3) Grayscale & Blurred Wallpaper
-            4) Normal Square Wallpaper
             --> """)))
-        if choice:
+        if choice == 1:
             print(self.perform_grayscale())
         elif choice == 2:
             print(self.perform_blur())
         elif choice == 3:
             print(self.perform_grayscale_and_blur())
-        elif choice == 4:
-            print(self.perform_normal())
         else:
-            print("Choose between 1 to 4")
+            print("Choose between 1 to 3")
 
     def perform_grayscale(self):
         driver.get(f'https://picsum.photos/{self.width}/{self.height}?grayscale')
@@ -56,11 +53,6 @@ class Main:
             print(f"An error occured: {e}")
         else:
             driver.get(f'https://picsum.photos/{self.width}/{self.height}/?grayscale&blur={blur}')
-
-    def perform_normal(self):
-        driver.get(f'https://picsum.photos/{self.height}')
-
-        
 
 width = int(input("Enter the width of the Wallpaper -->")) 
 height = int(input("Enter the height of the Wallpaper -->")) 
