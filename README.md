@@ -11,7 +11,8 @@ A tiny Python script that grabs a random wallpaper from a website and lets you t
 ## 📦 Requirements
 - Python 3.x
 - Required Library
-
+- Driver for your browser, for example — Firefox has it's own driver called Geckodriver
+ 
 ## 🛠️ Install
 ```bash
 git clone https://github.com/dev-vaibhav-0/Random-Wallpaper-Chooser
@@ -21,7 +22,7 @@ pip install -r requirements.txt
 
 ## 🚀 Run
 
-Supported browsers are Safari,Chrome,Firefox and Edge and are given names for their .py files for easier understanding 
+Supported browsers are Safari,Chrome,Firefox and Edge and are given names for their .py files for easier understanding. You can also change the file path accordingly although it is recommended for Linux to put the driver in /usr/local/bin.
 
 ```bash
 python <browser>.py
