@@ -1,9 +1,9 @@
 import selenium
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.safari.service import Service
 from selenium import webdriver
 
-s = Service('/usr/local/bin/geckodriver')
+s = Service()
 driver = webdriver.Safari(service=s)
 
 class Main:
