@@ -20,6 +20,10 @@ cd Random-Wallpaper-Chooser
 pip install -r requirements.txt
 ```
 Be sure to change the path of the driver if its not in /usr/local/bin.
+In Safari paste in terminal before running:
+```bash
+safaridriver --enable
+```
 
 ## 🚀 Run
 
