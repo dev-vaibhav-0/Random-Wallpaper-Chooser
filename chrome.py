@@ -1,9 +1,9 @@
 import selenium
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 
-s = Service('/usr/local/bin/geckodriver')
+s = Service('/usr/local/bin/chromedriver')
 driver = webdriver.Chrome(service=s)
 
 class Main:
