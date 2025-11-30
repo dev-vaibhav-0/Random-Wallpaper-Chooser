@@ -19,6 +19,7 @@ git clone https://github.com/dev-vaibhav-0/Random-Wallpaper-Chooser
 cd Random-Wallpaper-Chooser
 pip install -r requirements.txt
 ```
+Be sure to change the path of the driver if its not in /usr/local/bin.
 
 ## 🚀 Run
 
@@ -27,3 +28,8 @@ Supported browsers are Safari,Chrome,Firefox and Edge and are given names for th
 ```bash
 python <browser>.py
 ```
+## Links
+- Chrome Driver: https://developer.chrome.com/docs/chromedriver/downloads
+- Gecko Driver: https://github.com/mozilla/geckodriver/releases
+- Edge Driver: https://github.com/MicrosoftEdge/EdgeWebDriver
+- Safari Driver: Safari and Safari Technology Preview each provide their own safaridriver executable. Make sure you already have the executable on your device: Safari’s executable is located at /usr/bin/safaridriver.
